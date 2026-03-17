@@ -1,12 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aluno Online</title>
-  </head>
-  <body>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css">
+  <title>Aluno Online</title>
+</head>
+<body>
+  <main class="dashboard-container">
+    
+    <section class="sidebar">
+      <section class="logo-area">
+       <img src="public/avatar.svg" alt="Logo"
+        <h3>Aluno Online</h3>
+      </section>
+      <ul>
+        <li>Dashboard</li>
+        <li>Notas</li>
+        <li>Faltas</li>
+        <li>Boletos</li>
+        <li>Requerimentos</li>
+        <li>Sair</li>
+      </ul>
+    </section>
+
+    <section class="main-content">
+      <section class="top-header">
+        <section class="welcome-text">
+          <h1>Olá, Aluno!</h1>
+          <p>Bem-vindo ao portal do aluno</p>
+        </section>
+        <img src="public/avatar.svg" alt="User" class="user-icon">
+      </section>
+
+      <section class="info-grid">
+        
+        <section class="card">
+          <header><h3>Mural de Avisos</h3></header>
+          <section class="card-body">
+            <ul>
+              <li>Inscrição para o projeto de extensão</li>
+              <li>Eleição para representante de turma</li>
+            </ul>
+          </section>
+        </section>
+
+        <section class="card">
+          <header><h3>Calendário Acadêmico</h3></header>
+          <section class="card-body">
+            <ul>
+              <li>23/02 - Início do período letivo 2026-1</li>
+              <li>25/04 - Prazo final para aplicação da P1</li>
+              <li>23/06 - Prazo final para aplicação da P2</li>
+              <li>04/07 - Fim do período letivo 2026-1</li>
+            </ul>
+          </section>
+        </section>
+
+        <section class="card">
+          <header><h3>Minhas Disciplinas</h3></header>
+          <section class="card-body">
+            <ul>
+              <li>BI e Data Warehousing</li>
+              <li>Construção de Frontend</li>
+            </ul>
+          </section>
+        </section>
+
+      </section>
+    </section>
+  </main>
+</body>
 </html>
