@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 services:
   app:
     image: node:24
     working_dir: /app
+=======
+services: 
+  app:
+    image: node:24
+    working_dir: /app 
+>>>>>>> 96405027ce6bb94297d90737b16e1f67dff8e2ed
     volumes:
       - ./:/app
     ports:
